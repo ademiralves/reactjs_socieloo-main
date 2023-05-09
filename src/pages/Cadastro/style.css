@@ -1,0 +1,136 @@
+.cadastro{
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+    align-items: center;
+}
+.cadastro p{
+    margin: 0;
+    text-align: center;
+}
+.cadastro img{
+    height: 250px;
+}
+.formulario{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+}
+.titulo-cad{
+    text-align: center;
+}
+.titulo-cad p{
+    font-size: 0.80em;
+    font-weight: 600;
+}
+.titulo-cad h1{
+    margin-top:20px;
+    color: #000;
+    font-size: 1.8rem;
+    line-height:  1.9rem;
+    margin-bottom: 10px;
+}
+.mensagem-cad{
+    color:rgb(0, 207, 0);
+    text-align: center;
+}
+.form-cad{
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.form__group-1{
+    flex-direction: column;
+    display: flex;
+    width: 25vw;
+}
+.radio__options input[type="radio"]{
+    width: 20px;
+    margin-right: 5px;
+}
+.about__radios{
+    display: flex;
+    flex-direction: column;
+}
+
+#descricao{
+    resize: none;
+    height: 100px;
+}
+.formcad{
+    margin:3vh 20px 20px 20px;
+    background-color: #fff;
+    box-shadow: 1px 2px 7px #00000070;
+    padding: 20px 30px;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.forms{
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px 30px;
+    max-width: 500px;
+    display: block;
+}
+.invalido{
+    color: rgb(201, 17, 17);
+    font-size: small;
+}
+
+.formcad label:not(.radio__option):before{
+    content: "* ";
+    color: #00a1ff;
+}
+.formcad label{
+    font-size: 1em;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.formcad input{
+    width: 100%;
+    height: 35px;
+    margin: 5px 0;
+    font-size: 0.80em;
+    padding: 5px;
+    border-radius: 3px;
+    border:rgb(49, 49, 49) solid 1px;
+}
+.formcad input[type="file"]{
+    border: none;
+}
+.cad-select{
+    width: 100%;
+}
+.form-cad section{
+    width: 300px;
+}
+.formcad button{
+    margin-top: 10px;
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 0;
+    background: #00a1ff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+    text-align: center;
+}
+.formcad button:hover {
+    background: rgba(0, 162, 255, 0.856)
+}
+.banco{
+    display: flex;
+    gap:0px 5px;
+}
+@media screen and (max-width:800px) {
+    .cadastro img{
+        display: none;
+    }
+}
