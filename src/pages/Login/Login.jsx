@@ -12,7 +12,7 @@ export default function Login() {
     const [error, setError] = useState(true)
 
     const handleClickCadastro = e => {
-        e.preventDefault()
+        e.preventDefault() 
         console.log(email);
         console.log(senha);
         localStorage.setItem("email", email)
